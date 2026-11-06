@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "incorporationMap": {
+    "label": "Link for incorporation map of California",
+    "url": "https://www.arcgis.com/apps/mapviewer/index.html?url=https%3A%2F%2Fgis.conservation.ca.gov%2Fserver%2Frest%2Fservices%2FBase%2FBase_BOECities%2FFeatureServer%2F0"
+  },
+  "resources": [
+    {
+      "id": "cupa",
+      "state": "California",
+      "category": "Agency lookup",
+      "title": "CUPA lookup tool",
+      "description": "Identify the Certified Unified Program Agency responsible for hazardous materials and hazardous waste programs at the site.",
+      "url": "https://calepa.maps.arcgis.com/apps/instant/lookup/index.html?appid=0b581f6578bd4b6eb72f6e5982e9d8c3",
+      "agency": "CalEPA",
+      "icon": "agency"
+    },
+    {
+      "id": "air",
+      "state": "California",
+      "category": "Agency lookup",
+      "title": "AQMD lookup tool",
+      "description": "Review California air district boundaries to identify the district serving the site.",
+      "url": "https://gis.data.ca.gov/datasets/CaliforniaARB::california-air-district-boundaries/explore?location=37.271937%2C-119.270547%2C6",
+      "agency": "California Air Resources Board",
+      "icon": "air"
+    },
+    {
+      "id": "air-records",
+      "state": "California",
+      "category": "Records request",
+      "title": "South Coast AQMD records request",
+      "description": "Submit a public records request for sites within South Coast AQMD jurisdiction. Other air districts administer their own requests.",
+      "url": "https://onbase-pub.aqmd.gov/sAppNet/UnityForm.aspx?d1=AbfIbz0Kh7IjrGip6gBbEMmRtYgGtJcyglZ2MKgwwdlcy7oSfh8OhABCPGRKLeE55NegBJDGjclIgnR0Bbdm8KEj%2fk%2bR0jB46lj0VOvQzOCkuX23bEyWJwsVuUYYMp58fcy7L7e%2bYjT2xrb%2bZghciq0NeEA7id01t21NNlEfY0iJ",
+      "alternateUrl": "https://www.aqmd.gov/nav/online-services/public-records",
+      "alternateLabel": "Agency records page",
+      "agency": "South Coast AQMD",
+      "icon": "records"
+    },
+    {
+      "id": "wells",
+      "state": "California",
+      "category": "Site research",
+      "title": "CalGEM Wellfinder",
+      "description": "Research oil and gas wells near the site using the California well mapping tool.",
+      "url": "https://maps.conservation.ca.gov/calgem/findwells/",
+      "agency": "Department of Conservation",
+      "icon": "well"
+    },
+    {
+      "id": "geotracker",
+      "state": "California",
+      "category": "Site research",
+      "title": "GeoTracker",
+      "description": "Review Water Board cleanup and investigation sites. The map opens using the site coordinates.",
+      "url": "https://geotracker.waterboards.ca.gov/map/?CMD=runreport&myaddress={latitude}%2C+{longitude}",
+      "needsGPS": true,
+      "agency": "State Water Resources Control Board",
+      "icon": "map"
+    },
+    {
+      "id": "envirostor",
+      "state": "California",
+      "category": "Site research",
+      "title": "EnviroStor",
+      "description": "Research DTSC cleanup sites and permitted facilities. The map opens using the site coordinates.",
+      "url": "https://envirostor.dtsc.ca.gov/public/map/?myaddress={latitude}%2C+{longitude}",
+      "needsGPS": true,
+      "agency": "Department of Toxic Substances Control",
+      "icon": "map"
+    }
+  ]
+}
